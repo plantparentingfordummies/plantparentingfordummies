@@ -1,7 +1,6 @@
 .html, body {
   margin: 0;
   height: 100%;
-  background-color: #E8DFE0
 }
 
 .background{
@@ -86,7 +85,7 @@
   font-size: 20px;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: #E8DFE0;
   border-radius: 8px;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #333;
@@ -98,22 +97,23 @@
 
 .button:hover,
 .button:focus {
-  color: white;
+  color: #E8DFE0;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #111;
-  border: .05rem solid #111;
+  background-color: #8D9B6A;
+  border: .05rem solid #8D9B6A;
   padding: 25px 40px;
   font-weight: 700
 }
 
 .footer {
+  background: transparent !important;
   display: flex;
   justify-content: center;
   width: 100%;
   color: #8A9EA7;
   text-align: center;
   overflow: hidden;
-  background-color: #E8DFE0
+  /* background-color: #E8DFE0 */
 }
 
 .footer li a i{
@@ -125,6 +125,30 @@
 }
 
 .footer li a i:hover {
+  color: #111;
+}
+
+.footer-homepage {
+  margin-top: 180px;
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #E8DFE0;
+  text-align: center;
+  overflow: hidden;
+  /* background-color: #E8DFE0 */
+}
+
+.footer-homepage li a i{
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  color: #E8DFE0;
+  font-size: 28px;
+}
+
+.footer-homepage li a i:hover {
   color: #111;
 }
 
@@ -161,6 +185,7 @@
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 2px;
 }
 
 .overlay {
