@@ -1,6 +1,7 @@
 .html, body {
   margin: 0;
   height: 100%;
+  background-color: #E8DFE0
 }
 
 .background{
@@ -32,7 +33,7 @@
   color: white;
   text-align: center;
   overflow: hidden;
-  background-color: #333
+  background-color: #8A9EA7
 }
 
 .header li {
@@ -42,7 +43,7 @@
   cursor: pointer;
   display: inline-block;
   list-style-type: none;
-  color: white;
+  color: #E8DFE0;
   margin: 10px;
 }
 
@@ -109,17 +110,17 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  color: white;
+  color: #8A9EA7;
   text-align: center;
   overflow: hidden;
-  background-color: #333
+  background-color: #E8DFE0
 }
 
 .footer li a i{
   cursor: pointer;
   display: inline-block;
   list-style-type: none;
-  color: white;
+  color: #8A9EA7;
   font-size: 16px;
 }
 
@@ -134,7 +135,7 @@
   flex-wrap: wrap;
 }
 
-.image-box {
+/* .image-box {
   margin: 30px;
   border: 1px solid black;
   padding: 20px;
@@ -143,17 +144,51 @@
 .image-box img {
   width:400px;
   height: relative;
-}
-
-.image-box p {
-  text-align: center;
-}
+} */
 
 .main {
   width: 80%;
   margin: 0 auto;
 }
 
-.description p {
+.plant-gallery .container {
+  margin: 30px;
+  position: relative;
+  width: 400px;
+}
+
+.plant-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #8D9B6A;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.plant-name {
+  font-family: 'Abril Fatface', cursive;
+  color: #E8DFE0;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
