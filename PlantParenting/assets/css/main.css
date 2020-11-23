@@ -46,8 +46,24 @@
   margin: 10px;
 }
 
+.header a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  color: #E8DFE0;
+  margin: 10px;
+}
+
 /* Changes the link color to #111 (black) on hover */
 .header nav li:hover {
+  color: #111;
+}
+
+.header nav a:hover {
   color: #111;
 }
 
