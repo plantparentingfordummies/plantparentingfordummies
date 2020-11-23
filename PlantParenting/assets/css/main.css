@@ -126,3 +126,34 @@
 .footer li a i:hover {
   color: #111;
 }
+
+.plant-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  margin: 30px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.image-box img {
+  width:400px;
+  height: relative;
+}
+
+.image-box p {
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.description p {
+  text-align: center;
+}
