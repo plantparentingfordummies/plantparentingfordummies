@@ -186,22 +186,24 @@
   height: relative;
 } */
 
-.main {
+/* .main {
   width: 80%;
   margin: 0 auto;
-}
+} */
 
 .plant-gallery .container {
   margin: 30px;
   position: relative;
   width: 400px;
+  height: 400px;
 }
 
 .plant-image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 400px;
   border-radius: 2px;
+  object-fit: cover;
 }
 
 .overlay {
