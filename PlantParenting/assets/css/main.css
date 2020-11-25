@@ -1,0 +1,159 @@
+.html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.background{
+  display:block;
+  width:100%; height:100%;
+  object-fit: cover;
+}
+
+.p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333
+}
+
+.header li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  margin: 10px;
+}
+
+/* Changes the link color to #111 (black) on hover */
+.header nav li:hover {
+  color: #111;
+}
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Main-Title {
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border-radius: 8px;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #333;
+  border: .05rem solid #333;
+  margin: 20px;
+  margin-top: 10px;
+  padding: 25px 40px;
+}
+
+.button:hover,
+.button:focus {
+  color: white;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #111;
+  border: .05rem solid #111;
+  padding: 25px 40px;
+  font-weight: 700
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333
+}
+
+.footer li a i{
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  font-size: 16px;
+}
+
+.footer li a i:hover {
+  color: #111;
+}
+
+.plant-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  margin: 30px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.image-box img {
+  width:400px;
+  height: relative;
+}
+
+.image-box p {
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.description p {
+  text-align: center;
+}
