@@ -26,19 +26,24 @@
 
       <!-- Homepage -->
 
-      <div class="page-container">
-        <img class="background background-image" src="assets/images/Homepage6.jpg" alt="Plant Parenting">
-        <div class="centered">
-    		 <h1 class="Main-Title">Plant Parenting for Dummies</h1>
-          <div class="buttons">
-    				<a class="button" href="mailto:plantparentingfordummies@gmail.com" target="_blank">Contact us</a>
-    				<a class="button" href="plants.html">Find a Plant</a>
-    			</div>
+      <div class='form'>
 
+          <h5>Ask the Plant Doctor</h5>
 
-        </div>
+          <label for="">Your name:</label>
+          <input type="text" id="name"><br/>
 
-    	 </div>
+          <label for="">Date:</label>
+          <input type="date" id="date"><br/>
+
+          <label for="">Your question:</label>
+          <textarea rows="5" col="30" rows="10" id="bodyText"></textarea>
+          <br>
+
+          <input type="button" id="addComment" value="add Comment" value="Add Comment" />
+      </div>
+      <div id="container">
+      </div>
 
       <!-- Footer, this must be the same in all pages-->
 
@@ -51,12 +56,10 @@
         </div>
       </footer>
 
-      <!-- Scroll to top button, this must be the same in all pages-->
-  		<div class="scrolltotop">
-
-  		</div>
-
   		<!-- Javascripts here, this must be the same in all pages -->
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="assets/script.js" type="text/javascript"></script>
 
   </body>
 </html>
