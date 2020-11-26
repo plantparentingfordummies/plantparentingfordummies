@@ -384,7 +384,7 @@
 
 .form {
     position: relative;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #8D9B6A;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -395,7 +395,7 @@
 
 .form h5 {
     font-family: 'Abril Fatface', cursive;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
 }
 
